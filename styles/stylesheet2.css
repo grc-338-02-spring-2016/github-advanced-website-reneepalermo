@@ -10,15 +10,17 @@ header {
 }
 
 #nav {
-	float: right;
+    float: right;
     align-content: center;
     margin-right: auto;
+    
 }
 
 #nav ul li {
     float: left;
     list-style: none;
     display: inline-block;
+    object-fit: contain;
 }
 
 #nav ul li a {
