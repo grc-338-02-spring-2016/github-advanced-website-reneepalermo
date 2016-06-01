@@ -12,7 +12,7 @@ header {
 #nav {
 	float: right;
     align-content: center;
-    margin-right: 10px
+    margin-right: auto;
 }
 
 #nav ul li {
@@ -90,7 +90,70 @@ footer{
     font-family: 'Roboto', sans-serif;
     text-align: center;
     display: inline-block;
-    margin-top: 70px;
+    margin-top: 70;
     position: sticky;
     min-width: 100%;
 }
+
+.images{
+    display: inline-block;
+    width: 100%;
+    align-items: center;
+    
+}
+
+.image1 img{
+    display:inline-block;
+    max-width: 49.5%; 
+    float: left;
+    margin-right: 1%;
+}
+
+.image2 img{
+    display:inline-block;
+    max-width: 49.5%;
+    float:left;
+    margin-bottom: 1%;
+}
+
+.image3 img{
+    display:inline-block;
+    max-width: 100%;   
+}
+
+.image5 img{
+    display:inline-block;
+    max-width: 68.5%;  
+    float: left;
+}
+
+.image6 img{
+    display:inline-block;
+    max-width: 30.5%; 
+    margin-left: 1%
+}
+
+.image7 img{
+    display:inline-block;
+    max-width: 25.5%;
+    float: left;
+    margin-right: 1%;
+}
+
+.image8 img{
+    display:inline-block;
+    max-width: 73.5%;   
+}
+
+
+.flower-image img{
+    max-width: 75%;
+    float:right;
+    margin-right: 15%;
+    margin-left: 15%;
+    margin-bottom: 10%;
+}
+
+
+
+
