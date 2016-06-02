@@ -13,6 +13,7 @@ header {
     float: right;
     align-content: center;
     margin-right: auto;
+    margin-right: 1%;
     
 }
 
@@ -20,13 +21,12 @@ header {
     float: left;
     list-style: none;
     display: inline-block;
-    object-fit: contain;
 }
 
 #nav ul li a {
     display: inline-block;
-    margin-left: 20px;
     margin-top: 20px;
+    margin-left: 20px;
     margin-bottom: 5px;
     color: #ffffff;
     font-size: 1em;
@@ -42,29 +42,30 @@ header {
     border-bottom: 1px solid #d8d8d8;
 }
 
-li a:hover {
+#nav li a: hover {
     background-color: #d5decb;
 }
 /* =Plant Image
 -------------------------------------------------------------- */
 
 .home-image {
-    margin-top: 20px;
+    margin-top: 40px;
     padding-left: 10%;
     background-color: #f3f3f3;
 	background-image: url('../images/plant1.jpg');
 	background-position: center;
 	background-size: cover;
 	overflow: hidden;
+    padding-top: 1.15em;
 }
 h1{
         text-transform: uppercase; 
         letter-spacing: 2px;
         font-size: 1em;
-        float: right;
         margin-right: 10px;
         display: block;
         color: white;
+        float: right;
     }
 
 p{
@@ -95,6 +96,8 @@ footer{
     margin-top: 70;
     position: sticky;
     min-width: 100%;
+    font-size: .7em;
+    font-weight: 200;
 }
 
 .images{
