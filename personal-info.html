@@ -4,8 +4,9 @@
 <head>
     
     <meta charset="utf-8">
-    <title>Desktop Template</title>
-     
+    <title>Responsive Website</title>
+    
+    
     <!--Detects device width-->
     <meta name="viewport" content="initial-scale=1, user-scalable=no">
     <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -19,6 +20,8 @@
     <link href="styles/reset.css" type="text/css" rel="stylesheet">
     <link href="styles/stylesheet2.css" type="text/css" rel="stylesheet">
     
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
     
     <link rel="shortcut icon" type="image/png" href="images/logo-grey.png"/>
     
@@ -42,6 +45,7 @@ section{
         margin-bottom: 1em;
     }      
     
+ 
 </style>
 
 </head>
@@ -100,18 +104,25 @@ section{
 </div>  
 </section>   
             
-            
-            
-        
-        <main>
 
-          
-        </main>
-
-        <footer>
-            Ask me about my experiences!<br>Go to the "Contact" page.
-        </footer>
-
-</body>
+<footer>
+    Ask me about my experiences!<br>Go to the "Contact" page.
+</footer>
     
+    
+ <!--javascript begins-->   
+    
+$('.image1').slick({
+  dots: true,
+  infinite: true,
+  speed: 300,
+  slidesToShow: 1,
+  centerMode: true,
+  variableWidth: true
+});
+
+    
+    
+</body>
+
 </html>
