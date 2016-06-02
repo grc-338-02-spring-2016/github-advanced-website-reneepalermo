@@ -43,7 +43,11 @@ section{
         color: grey; 
         text-align: center;
         margin-bottom: 1em;
-    }      
+    }   
+    .variable-width img{
+        max-height: 10em;
+        margin-right: 3px;
+    }
     
  
 </style>
@@ -101,7 +105,15 @@ section{
         <img src="images/madrid.jpg" alt="Madrid">
     </div>
     
-</div>  
+</div>
+    
+<div class='variable-width'>
+    <div><img src="images/bike.jpg" alt="Bike"></div>
+    <div><img src="images/swirl.jpg" alt="La Pedrera"></div>
+    <div><img src="images/market.jpg" alt="La Bocaria"></div>
+    <div><img src="images/luvre.jpg" alt="La Luvre"></div>
+    <div><img src="images/sagrada.jpg" alt="La Sagrada Familia"></div>
+</div>
 </section>   
             
 
@@ -110,18 +122,22 @@ section{
 </footer>
     
     
- <!--javascript begins-->   
+ <!--javascript begins-->
     
-$('.image1').slick({
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="slick/slick.min.js"></script>
+
+<script type="text/javascript">
+$('.variable-width').slick({
   dots: true,
   infinite: true,
   speed: 300,
   slidesToShow: 1,
   centerMode: true,
   variableWidth: true
-});
-
-    
+});   
+</script>     
     
 </body>
 
